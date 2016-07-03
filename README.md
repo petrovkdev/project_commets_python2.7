@@ -3,7 +3,6 @@
 Если другая система, то править конфиги: 
 - /appcomments/comments/conf/appcomments.ini
 - /appcomments/comments/conf/appcomments.nginx
-
 <br>
 Cоздать символические ссылки для nginx:
 - <code>ln -s /home/appcomments/comments/conf/appcomments.nginx /etc/nginx/sites-enabled/myapp</code>
