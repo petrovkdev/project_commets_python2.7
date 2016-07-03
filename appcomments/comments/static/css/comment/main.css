@@ -1,0 +1,57 @@
+.control{
+ width:400px;
+ padding:5px;
+ box-sizing:border-box; 
+ border: 1px solid #aaa;
+}
+
+#code{
+ margin:0 3px;
+ width:100px;
+ text-align:center;
+}
+
+#phone{
+   margin-left:5px;
+ width:278px;
+}
+
+textarea.control{
+ height:100px;
+ overflow:auto;
+}
+
+.field{
+  margin-bottom:10px;
+  position:relative;
+}
+
+.require:after{
+  content:'Обязательное поле';
+  position:absolute;
+  left:403px;
+  top:5px;
+  font-size:14px;
+  color:#ccc;
+}
+
+.invalide{
+  border:1px solid red;
+}
+
+.none{
+  display:none;
+}
+
+#result{
+  color:green;
+}
+
+#email.invalide + .incorrect{
+  position:absolute;
+  left:403px;
+  top:5px;
+  font-size:14px;
+  color:red;
+  display:block;
+}

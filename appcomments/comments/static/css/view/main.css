@@ -1,0 +1,32 @@
+#list_comment{
+  width:100%;
+  border-spacing: 0;
+  border-right: 1px solid #cdcdcd;
+  border-bottom: 1px solid #cdcdcd;
+  margin-bottom: 10px;
+}
+
+#list_comment th{
+  border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+}
+
+#list_comment td{
+ border-top: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+  padding:3px;
+}
+
+#list_comment .row:hover{
+ background:#ddd;
+}
+
+.none{
+  display:none;
+}
+
+#result{
+  margin-bottom:10px;
+  color:green;
+  text-align:right;
+}
